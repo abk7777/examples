@@ -13,6 +13,8 @@ authorAvatar: 'https://avatars0.githubusercontent.com/u/8188?v=4&s=140'
 
 This example demonstrates how to setup a simple HTTP GET endpoint. Once you ping it, it will reply with the current time. While the internal function is name `currentTime` the HTTP endpoint is exposed as `ping`.
 
+This example has been modified to show how to use `serverless-python-requirements` to restructure the Serverless Lambda distribution package such that importing user-defined modules works correctly in Lambda.
+
 ## Use Cases
 
 - Wrapping an existing internal or external endpoint/service
